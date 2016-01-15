@@ -11,7 +11,7 @@ Bring data in [Health Planet](https://www.healthplanet.jp/) to [Idobata](http://
 - Heroku / Heroku Scheduler (add-on)
 - Idobata API Generic Hook
 - [Health Planet API](https://www.healthplanet.jp/apis/api.html) id/secret
-   - 注意: 値の取得は1時間60回まで
+   - 注意: APIのアクセス制限により、叩けるのは1時間あたり60回まで。[詳細](https://www.healthplanet.jp/apis/api.html)
    - cf. [体組成データを取得する。](http://www.mirandora.com/?p=808) - mirandora.commirandora.com
 
 
