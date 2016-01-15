@@ -15,9 +15,7 @@ Bring data in [Health Planet](https://www.healthplanet.jp/) to [Idobata](http://
    - cf. [体組成データを取得する。](http://www.mirandora.com/?p=808) - mirandora.commirandora.com
 
 
-## How to setup / セットアップ方法
-
-TODO
+## [WIP] How to setup / セットアップ方法
 
 1. Set environment variables: 
     - `IDOBATA_END` for Idobata Generic Hook token
@@ -28,8 +26,9 @@ TODO
 5. Add a job to [Heroku Scheduler](https://scheduler.heroku.com/dashboard)
    - Task: `bundle exec ruby main.rb`
    - Dyno Size: `1x`
-   - Frequency: `Hourly`
-6. Done!
+   - Frequency: `Every 10 minutes`
+
+... TODO ...
 
 ## References / 参考記事
 
