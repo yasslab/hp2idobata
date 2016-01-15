@@ -4,14 +4,16 @@ Bring data in [Health Planet](https://www.healthplanet.jp/) to [Idobata](http://
 
 ![Screenshot](https://dl.dropboxusercontent.com/u/2819285/hp2idobata_ss.jpeg)
 
-## Requirements
+## Requirements / 必要なモノ
 
+- [タニタ 体組成計 BC-508](http://www.tanita.co.jp/product/g/_TBC508WH/)
+   - WPS対応のWi-Fiルーターがあると、すぐ繋がります :)
 - Heroku / Heroku Scheduler (add-on)
-- ['idobata'](https://github.com/asonas/idobata-ruby) gem
 - Idobata API Generic Hook
 - [Health Planet API](https://www.healthplanet.jp/apis/api.html) id/secret
-   - `※値の取得は1時間60回までの制限がありますのでご注意ください。`
+   - 注意: 値の取得は1時間60回まで
    - cf. [体組成データを取得する。](http://www.mirandora.com/?p=808) - mirandora.commirandora.com
+
 
 ## How to setup 
 
