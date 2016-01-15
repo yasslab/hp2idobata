@@ -15,7 +15,7 @@ Bring data in [Health Planet](https://www.healthplanet.jp/) to [Idobata](http://
    - cf. [体組成データを取得する。](http://www.mirandora.com/?p=808) - mirandora.commirandora.com
 
 
-## How to setup 
+## How to setup / セットアップ方法
 
 TODO
 
@@ -31,17 +31,17 @@ TODO
    - Frequency: `Hourly`
 6. Done!
 
-## References
+## References / 参考記事
 
 - [APIの設定 - ヘルスプラネット](https://www.healthplanet.jp/apis/api.html)
 - [体組成データを取得する。](http://www.mirandora.com/?p=808) - mirandora.commirandora.com
 - [Health Planet からデータをエクスポートするための embulk-input-healthplanet プラグイン](http://muziyoshiz.hatenablog.com/entry/2016/01/11/234921) - 無印吉澤
 
-## 協力
+## Supporters / 協力
 
-- [加圧トレーニングスタジオIRIE(アイリー)](http://irie1212.jp/)
+- [加圧トレーニングスタジオ IRIE (アイリー)](http://irie1212.jp/)
 
-## License 
+## License / ライセンス
 
 The MIT License (MIT)
 
