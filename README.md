@@ -35,13 +35,17 @@ TODO
 - [体組成データを取得する。](http://www.mirandora.com/?p=808) - mirandora.commirandora.com
 - [Health Planet からデータをエクスポートするための embulk-input-healthplanet プラグイン](http://muziyoshiz.hatenablog.com/entry/2016/01/11/234921) - 無印吉澤
 
+## 協力
 
+- [加圧トレーニングスタジオIRIE(アイリー)](http://irie1212.jp/)
 
 ## License 
 
 The MIT License (MIT)
 
 Copyright &copy; 2016 [YassLab](http://yasslab.jp)
+
+[![YassLab Logo](https://dl.dropboxusercontent.com/u/2819285/yasslab_logo_copy.png)](http://yasslab.jp)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
