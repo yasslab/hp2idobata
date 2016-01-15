@@ -31,7 +31,7 @@ TAG2UNIT     = {
 TAG_PARAMS   = 6
 DATE_TYPE    = 0
 FROM_DATE    = Time.now.strftime("%Y%m%d%H%M%S")
-TO_DATE      = (Time.now + 60 * 60).strftime("%Y%m%d%H%M%S") # in an hour
+TO_DATE      = (Time.now + 60 * 10).strftime("%Y%m%d%H%M%S") # in the last 10 minutes
 #FROM_DATE    = "20160114000000"  # Sample Date Format
 #TO_DATE      = "20160114235900"  # Sample Date Format
 
@@ -49,7 +49,7 @@ tags    = doc.xpath("//tag")
 
 
 if data.empty?
-  puts "Nothing found in a recent hour."
+  puts "Nothing found in the last 10 minutes."
   exit
 end
 
