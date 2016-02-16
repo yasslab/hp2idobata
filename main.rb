@@ -58,8 +58,8 @@ msg = ""
 msg << "<span class='label label-info'>yasulab</span> が体重を測りました<br /> \n"
 msg << "日付: " + DateTime.parse(date[0]).strftime("%Y年%m月%d日 %H:%M:%S") + "<br/> \n"
 data.each_with_index { |datum, num|
-  break if num >= 7      # Get out of the loop when more than 2 data in 10 minutes
-  next if tags[num].nil? # The nexts are fixed data: <height>172</height>  <sex>male</sex>
+  break if num >= 1 and TAG2NAME[tags[num].text] == "体重"  # Get the latest only
+  next  if tags[num].nil? # The nexts are fixed data: <height>172</height>  <sex>male</sex>
   msg << TAG2NAME[tags[num].text]
   msg << ": "
   msg << keydata[num].text + TAG2UNIT[tags[num].text]
