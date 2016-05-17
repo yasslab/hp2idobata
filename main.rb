@@ -9,7 +9,9 @@ require 'csv'
 require 'pry'
 
 Idobata.hook_url = ENV['IDOBATA_END']
-ACCESS_TOKEN = ENV['ACCESS_TOKEN']
+ACCESS_TOKEN     = ENV['ACCESS_TOKEN']
+LABEL_COLOR      = ENV['LABEL_COLOR'] || "label-success"
+# cf. http://qiita.com/harukasan/items/2ddb47f7ce6086d3a571#2-1
 
 # Required to generate ACCESS_TOKEN
 # See `sample_token_getter.rb` for details.
@@ -55,7 +57,7 @@ end
 
 # Generate message to send Idobata
 msg = ""
-msg << "<span class='label label-info'>yasulab</span> が体重を測りました<br /> \n"
+msg << "<span class='label #{LABEL_COLOR}'>yasulab</span> が体重を測りました<br /> \n"
 msg << "日付: " + DateTime.parse(date[0]).strftime("%Y年%m月%d日 %H:%M:%S") + "<br/> \n"
 data.each_with_index { |datum, num|
   break if num >= 1 and TAG2NAME[tags[num].text] == "体重"  # Get the latest only
