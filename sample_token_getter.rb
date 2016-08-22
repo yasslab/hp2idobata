@@ -1,3 +1,6 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
 # This is just sample program. See the following blog for details.
 # http://www.mirandora.com/?p=808
 # You don't have to get the token via Agent.
