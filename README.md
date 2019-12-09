@@ -2,7 +2,7 @@
 
 Bring data in [Health Planet](https://www.healthplanet.jp/) to [Idobata](http://idobata.io).
 
-![Screenshot](https://dl.dropboxusercontent.com/u/2819285/hp2idobata_ss.jpeg)
+![Screenshot](https://raw.githubusercontent.com/yasslab/hp2idobata/master/hp2idobata_ss.jpg)
 
 ## Requirements / 必要なモノ
 
